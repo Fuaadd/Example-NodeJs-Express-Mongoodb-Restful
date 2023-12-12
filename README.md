@@ -30,25 +30,12 @@ Untuk menjalankan proses backend untuk menjalankan perintah **Create (Post), Rea
                   }
       3.Update data
         Response Method: PUT
-        Request URL: http://localhost/ci4restapi/public/pegawai
+        Request URL: http://localhost:3000/products/65780746da7c458ed002d70e
         pilih raw dan pilih json
         isi raw :
                   {
-                  "id": "1",
-                  "nama": "luthfi",
-                  "email": "luthfifuadi@gmail.com"
-                  }
-        balikan : {
-                   "status": true,
-                   "message": "data berhasil di update !"
-                  }              
+                  "name": "soap"
         4.Hapus data
         Response Method: DELETE
-        Request URL: http://localhost/ci4restapi/public/pegawai/1
-        balikan  : {
-                     "status": 200,
-                     "error": null,
-                     "message": {
-                        "success": "data berhasil dihapus..!"
-                                }
-                    }
+        Request URL: http://localhost:3000/products/65780746da7c458ed002d70e
+        
